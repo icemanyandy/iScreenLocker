@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 按钮_白 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:drawable="@color/transparent" /><!-- default -->
+    <item android:state_pressed="true" android:drawable="@drawable/umipay_default_btn_pressed_bg"/>
+</selector>

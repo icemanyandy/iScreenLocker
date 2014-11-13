@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="iosnotice" default="help">
+
+    <!-- 指定 OPPO SDK 所在的目录，路径一定要正确 -->
+    <property name="sdk.dir" value="E:\dev_tools\adt-bundle-windows-x86-20140321\sdk" />
+    <!-- 指定user library 所在的目录，在编译java代码时，会加载该目录下的jar包作
+                               为引导文件且优先于SDK中的android。jar。同时该目录的内容可以为空，默认使用SDK提供的android。jar-->
+    <property name="library.dir" value="" />
+    
+    <!-- 这里主要是与APK签名相关，release 会用以下指定签名文件进行签名 ，debug是不会用到以下签名文件进行签名。
+         mykey.path是指定签名文件存放的路径;mykey 是这个工程需要的签名文件
+                               如果不用提供的key进行签名需要自己指定key.store和key.alias以及对应的密码   -->
+	<property name="mykey.path" value="E:/dev_tools/keystore" />
+	<property name="mykey" value="softboy" />
+	<property name="key.store" value="${mykey.path}\\${mykey}.keystore" />
+	<property name="key.store.password" value="iceman" />
+	<property name="key.alias" value="${mykey}" />
+	<property name="key.alias.password" value="iceman" />
+	
+	
+    <!-- 指定对应SDK版本号，如android 4.0对应的是 15. -->
+    <property name="target" value="android-19" />
+    
+    <!-- 指定应用编译的资源目录，默认是res -->
+    <property name="resource.absolute.oppo.dir" value="res" />
+    
+    <!-- support.internal -> true 加载oppo internal api，否则不加载 -->
+    <property name="support.internal" value="true" />
+    
+     <!-- 指定proguard配置文本 -->
+    <property name="proguard.config" value="proguard.txt" />
+
+    <!-- proguard 开关，true->进行proguard混淆 -->
+    <property name="proguard.enabled" value="true" />
+
+    <!-- quick check on sdk.dir -->
+    <fail
+            message="sdk.dir is missing. Make sure to generate local.properties using 'android update project' or to inject it through an env var"
+            unless="sdk.dir"
+    />
+
+    <import file="custom_rules.xml" optional="true" />
+
+    <!-- version-tag: 1 -->
+    <import file="${sdk.dir}/tools/ant/build.xml" />
+
+</project>

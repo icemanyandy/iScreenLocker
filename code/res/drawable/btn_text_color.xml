@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     tabs选项卡link颜色样式
+     ======================
+  -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:color="@color/btn_normal" /> <!-- default -->
+    <item android:state_pressed="true" android:color="@color/btn_pressed" />
+</selector>

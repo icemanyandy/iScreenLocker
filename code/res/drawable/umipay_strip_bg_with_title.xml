@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 按钮_白 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+    <layer-list>
+        <item android:drawable="@color/strip"
+            >
+        </item>
+        <item android:drawable="@drawable/umipay_strip"
+              android:top="5dp"            
+            />
+    </layer-list>
+    </item>
+</selector>

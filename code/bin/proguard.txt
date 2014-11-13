@@ -1,0 +1,152 @@
+# view res/layout/screen_main.xml #generated:81
+-keep class com.softboy.lock.GradientView { <init>(...); }
+
+# view AndroidManifest.xml #generated:283
+-keep class com.softboy.lock.LockScreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.softboy.lock.PayMe { <init>(...); }
+
+# view AndroidManifest.xml #generated:296
+-keep class com.softboy.lock.StarLockService { <init>(...); }
+
+# view res/layout/topbar.xml #generated:2
+-keep class com.softboy.lock.TopBarView { <init>(...); }
+
+# view res/layout/screen_lock.xml #generated:30
+-keep class com.softboy.lock.sbViewPage { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.softboy.screenlocker.App { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class com.softboy.screenlocker.acdisplay.AcDisplayActivity { <init>(...); }
+
+# view res/layout/acdisplay.xml #generated:30
+-keep class com.softboy.screenlocker.acdisplay.AcDisplayFragment2 { <init>(...); }
+
+# view res/layout/main_content.xml #generated:28
+# view res/layout/screen_main.xml #generated:69
+-keep class com.softboy.screenlocker.acdisplay.sbDisplayFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.softboy.screenlocker.activities.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:219
+-keep class com.softboy.screenlocker.admin.AdminReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.softboy.screenlocker.blacklist.activities.BlacklistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.softboy.screenlocker.blacklist.activities.SubBlacklistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:258
+-keep class com.softboy.screenlocker.powertoggles.ToggleReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:248
+-keep class com.softboy.screenlocker.providers.LogAttachmentProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:234
+-keep class com.softboy.screenlocker.providers.ToggleWidgetProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class com.softboy.screenlocker.receiver.LocalReceiverActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.softboy.screenlocker.receiver.Receiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:172
+-keep class com.softboy.screenlocker.services.AccessibilityService { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.softboy.screenlocker.services.BathService { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class com.softboy.screenlocker.services.MediaService { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.softboy.screenlocker.settings.Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.softboy.screenlocker.settings.Settings$ActiveModeSettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.softboy.screenlocker.settings.Settings$LockscreenSettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.softboy.screenlocker.settings.SubSettings { <init>(...); }
+
+# view res/xml/interface_settings.xml #generated:75
+-keep class com.softboy.screenlocker.settings.preferences.IconSizePreference { <init>(...); }
+
+# view res/xml/more_settings.xml #generated:30
+-keep class com.softboy.screenlocker.settings.preferences.InactiveTimePreference { <init>(...); }
+
+# view res/xml/more_settings.xml #generated:36
+-keep class com.softboy.screenlocker.settings.preferences.TimeoutPreference { <init>(...); }
+
+# view res/layout/acdisplay_fragment.xml #generated:27
+# view res/layout/acdisplay_fragment.xml #generated:48
+-keep class com.softboy.screenlocker.view.ForwardingLayout { <init>(...); }
+
+# view res/layout/fragment_acdisplay.xml #generated:28
+-keep class com.softboy.screenlocker.widgets.CircleView { <init>(...); }
+
+# view res/layout/widget_status.xml #generated:30
+-keep class com.softboy.screenlocker.widgets.DateView { <init>(...); }
+
+# view res/layout/widget_notification.xml #generated:39
+# view res/layout/widget_notification_icon.xml #generated:25
+-keep class com.softboy.screenlocker.widgets.NotificationIcon { <init>(...); }
+
+# view res/layout/widget_notification_icon.xml #generated:19
+-keep class com.softboy.screenlocker.widgets.NotificationIconWidget { <init>(...); }
+
+# view res/layout/widget_notification.xml #generated:20
+-keep class com.softboy.screenlocker.widgets.NotificationWidget { <init>(...); }
+
+# view res/layout/acdisplay_progress_bar.xml #generated:20
+# view res/layout/acdisplay_progress_bar_mirrored.xml #generated:34
+# view res/layout/acdisplay_progress_bar_mirrored.xml #generated:43
+-keep class com.softboy.screenlocker.widgets.ProgressBar { <init>(...); }
+
+# view res/layout/heads_up_notification_message.xml #generated:19
+# view res/layout/widget_notification.xml #generated:47
+# view res/layout/widget_notification.xml #generated:65
+# view res/layout/widget_notification.xml #generated:77
+-keep class com.softboy.screenlocker.widgets.TextView { <init>(...); }
+
+# view res/layout/acdisplay_scene_clock.xml #generated:33
+-keep class com.softboy.screenlocker.widgets.TimeView { <init>(...); }
+
+# view res/layout/widget_status.xml #generated:36
+-keep class com.softboy.screenlocker.widgets.status.BatteryMeterView { <init>(...); }
+
+# view res/layout/widget_status.xml #generated:22
+-keep class com.softboy.screenlocker.widgets.status.StatusWidget { <init>(...); }
+
+# view AndroidManifest.xml #generated:310
+-keep class com.unionpay.uppay.PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:303
+-keep class com.unionpay.uppay.PayActivityEx { <init>(...); }
+
+# view res/layout/sbdisplay_fragment.xml #generated:9
+-keep class fr.ydelouis.widget.SwipeToDeleteListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:302
+-keep class net.umipay.android.UmipayBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:324
+-keep class net.umipay.android.poll.Push_Alarm_Receiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:319
+-keep class net.umipay.android.poll.Push_Boot_Receiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:317
+-keep class net.umipay.android.poll.Push_Poll_service { <init>(...); }
+
+# view AndroidManifest.xml #generated:318
+-keep class net.umipay.android.poll.SmsReceiverService { <init>(...); }
+
