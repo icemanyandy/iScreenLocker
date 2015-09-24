@@ -1,8 +1,3 @@
 ﻿{
-    "url": "https://raw.githubusercontent.com/icemanyandy/iScreenLocker/master/ios_notify/release/iosNotify.apk", 
-    "versionCode": 36, 
-	"package":"com.softboy.notify1",
-	"installnottip":"no",
-	"selfupdate":"no",
-    "updateMessage": "请下载ios通知语音 V0922,若已经下载请忽略。下载失败请浏览器输入手动下载:http://dwz.cn/iosnotify"
+    "url": "https://raw.githubusercontent.com/icemanyandy/iScreenLocker/master/ios_notify/release/iosNotify.apk","versionCode": 36,"package":"com.softboy.notify1","installnottip":"no","selfupdate":"no","updateMessage": "请下载ios通知语音 V0922,若已经下载请忽略。下载失败请浏览器输入手动下载:http://dwz.cn/iosnotify"
 }
