@@ -7,3 +7,19 @@ iOS通知语音(iOS notify)是一款苹果ios风格的通知软件。旨在创造一个便捷高效的通知管
 完美支持4.4+
 关键字
 ios通知 通知管理 苹果通知栏 苹果风格
+
+
+https://raw.githubusercontent.com/icemanyandy/iScreenLocker/master/ios_notify/screenshoot/Screenshot_01.jpg
+
+https://raw.githubusercontent.com/icemanyandy/iScreenLocker/master/ios_notify/screenshoot/Screenshot_02.jpg
+
+
+https://raw.githubusercontent.com/icemanyandy/iScreenLocker/master/ios_notify/screenshoot/Screenshot_03.jpg
+
+https://raw.githubusercontent.com/icemanyandy/iScreenLocker/master/ios_notify/screenshoot/Screenshot_04.jpg.
+
+
+https://raw.githubusercontent.com/icemanyandy/iScreenLocker/master/ios_notify/screenshoot/demo4.gif
+
+
+
